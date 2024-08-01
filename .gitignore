@@ -1,0 +1,43 @@
+# Ignorar arquivos de cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignorar ambientes virtuais
+venv/
+env/
+*.env
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de testes de cobertura
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignorar diretórios de build
+build/
+dist/
+*.egg-info/
+*.egg
